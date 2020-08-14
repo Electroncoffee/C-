@@ -135,9 +135,6 @@
     <ClCompile Include="4.4 이니셜라이저, 디폴트 생성자.cpp">
       <Filter>소스 파일\4. 클래스의 완성</Filter>
     </ClCompile>
-    <ClCompile Include="2step.cpp">
-      <Filter>소스 파일\OOP 프로젝트</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SimpleFunc.h">
