@@ -129,10 +129,16 @@
     <ClCompile Include="4.3 생성자와소멸자,지역함수.cpp">
       <Filter>소스 파일\4. 클래스의 완성</Filter>
     </ClCompile>
-    <ClCompile Include="FruitSaleSim2.cpp">
-      <Filter>소스 파일\3. 클래스의 기본\AppleTrade</Filter>
-    </ClCompile>
     <ClCompile Include="4.4 이니셜라이저, 디폴트 생성자.cpp">
+      <Filter>소스 파일\4. 클래스의 완성</Filter>
+    </ClCompile>
+    <ClCompile Include="4.5 멤버변수 참조자선언후 이니셜라이징.cpp">
+      <Filter>소스 파일\4. 클래스의 완성</Filter>
+    </ClCompile>
+    <ClCompile Include="4.6 디폴트 생성자.cpp">
+      <Filter>소스 파일\4. 클래스의 완성</Filter>
+    </ClCompile>
+    <ClCompile Include="4.7 private 생성자.cpp">
       <Filter>소스 파일\4. 클래스의 완성</Filter>
     </ClCompile>
   </ItemGroup>
