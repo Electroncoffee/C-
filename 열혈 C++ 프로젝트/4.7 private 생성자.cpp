@@ -6,15 +6,15 @@ class AAA
 private:
 	int num;
 public:
-	AAA() : num(0) {}
-	AAA& CreateImitObj(int n) const
+	AAA() : num(0) {} //외부에서 객체를 부르기위한 생성자
+	AAA& CreateImitObj(int n) const //반환형이 참조자인 함수
 	{
-		AAA * ptr = new AAA(n);
-		return *ptr;
+		AAA * ptr = new AAA(n);//private생성자로 객체 생성, 힙스택에서 객체를 생성
+		return *ptr;//생성한 객체를 반환
 	}
 	void ShowNum() const { cout << num << endl; }
 private:
-	AAA(int n) : num(n) {}
+	AAA(int n) : num(n) {} //private생성자
 };
 
 int main(void)
@@ -28,6 +28,7 @@ int main(void)
 	AAA &obj2 = base.CreateImitObj(12);
 	obj2.ShowNum();
 
+	//힙스택에서 생성한 객체를 소멸
 	delete &obj1;
 	delete &obj2;
 

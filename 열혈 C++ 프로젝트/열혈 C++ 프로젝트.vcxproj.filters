@@ -141,6 +141,24 @@
     <ClCompile Include="4.7 private 생성자.cpp">
       <Filter>소스 파일\4. 클래스의 완성</Filter>
     </ClCompile>
+    <ClCompile Include="4.8 소멸자.cpp">
+      <Filter>소스 파일\4. 클래스의 완성</Filter>
+    </ClCompile>
+    <ClCompile Include="donut.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.9 열혈4-3문제.cpp">
+      <Filter>소스 파일\4. 클래스의 완성</Filter>
+    </ClCompile>
+    <ClCompile Include="4.10 객체배열, 객체포인터배열.cpp">
+      <Filter>소스 파일\4. 클래스의 완성</Filter>
+    </ClCompile>
+    <ClCompile Include="this포인터.cpp">
+      <Filter>소스 파일\4. 클래스의 완성</Filter>
+    </ClCompile>
+    <ClCompile Include="2step.cpp">
+      <Filter>소스 파일\OOP 프로젝트</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SimpleFunc.h">
@@ -161,6 +179,9 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="1단계 요구사항.txt">
+      <Filter>소스 파일\OOP 프로젝트</Filter>
+    </Text>
+    <Text Include="2단계 요구사항.txt">
       <Filter>소스 파일\OOP 프로젝트</Filter>
     </Text>
   </ItemGroup>
